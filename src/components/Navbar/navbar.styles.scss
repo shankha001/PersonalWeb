@@ -6,6 +6,17 @@
   flex-direction: column;
   width: 60px;
   height: 100vh;
-
   text-align: center;
+  justify-content: center;
+}
+
+.sidebar__nav {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+
+  &-icon {
+    cursor: pointer;
+  }
 }
