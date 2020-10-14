@@ -5,24 +5,35 @@ import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
 import FlareIcon from '@material-ui/icons/Flare';
 import WorkIcon from '@material-ui/icons/WorkOutlineOutlined';
 import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendarOutlined';
+import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <div className="sidebar__container">
       <div className="sidebar__nav">
         <div className="sidebar__nav-icon">
-          <HomeIcon fontSize="large" />
+          <Link to="/home">
+            <HomeIcon fontSize="large" />
+          </Link>
         </div>
         <div className="sidebar__nav-icon">
-          <PersonOutlineIcon fontSize="large" />
+          <Link to="/about">
+            <PersonOutlineIcon fontSize="large" />
+          </Link>
         </div>
         <div className="sidebar__nav-icon">
-          <FlareIcon fontSize="large" />
+          <Link to="/skills">
+            <FlareIcon fontSize="large" />
+          </Link>
         </div>
         <div className="sidebar__nav-icon">
-          <WorkIcon fontSize="large" />
+          <Link to="/experience">
+            <WorkIcon fontSize="large" />
+          </Link>
         </div>
         <div className="sidebar__nav-icon">
-          <PermContactCalendarIcon fontSize="large" />
+          <Link to="/contact">
+            <PermContactCalendarIcon fontSize="large" />
+          </Link>
         </div>
       </div>
     </div>
