@@ -1,3 +1,17 @@
 .home__container {
-  background-color: yellowgreen;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  &__me {
+    width: 50%;
+    text-align: center;
+  }
+  &__photo {
+    width: 40%;
+    text-align: center;
+  }
 }
