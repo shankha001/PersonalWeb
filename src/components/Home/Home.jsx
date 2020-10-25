@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.styles.scss";
-import { useQuery, gql } from "@apollo/client";
 import { ReactComponent as ProfilePic } from "../../assets/profile.svg";
 import Typical from "react-typical";
 function Home() {
