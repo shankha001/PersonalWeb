@@ -1,11 +1,11 @@
-import React from 'react';
-import './navbar.styles.scss';
-import HomeIcon from '@material-ui/icons/HomeOutlined';
-import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
-import FlareIcon from '@material-ui/icons/Flare';
-import WorkIcon from '@material-ui/icons/WorkOutlineOutlined';
-import PermContactCalendarIcon from '@material-ui/icons/PermContactCalendarOutlined';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./navbar.styles.scss";
+import HomeIcon from "@material-ui/icons/HomeOutlined";
+import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
+import FlareIcon from "@material-ui/icons/Flare";
+import WorkIcon from "@material-ui/icons/WorkOutlineOutlined";
+import PermContactCalendarIcon from "@material-ui/icons/PermContactCalendarOutlined";
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="sidebar__container">
@@ -34,6 +34,20 @@ function Navbar() {
           <Link to="/contact">
             <PermContactCalendarIcon fontSize="large" />
           </Link>
+        </div>
+      </div>
+      <div className="sidebar__social">
+        <div className="footer-social">
+          <a href="https://github.com/shankha001">
+            <i className="fab fa-github"></i>
+          </a>
+
+          <a href="mailto:shankhasubhrabiswas@gmail.com">
+            <i className="fas fab fa-envelope"></i>
+          </a>
+          <a href="https://instagram.com">
+            <i className="fab fa-instagram"></i>
+          </a>
         </div>
       </div>
     </div>
