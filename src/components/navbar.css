@@ -1,0 +1,8 @@
+.navbar_container{
+  height: 10vh;
+
+  padding: 10px;
+  display: flex;
+    align-items: center;
+   justify-content: flex-end;
+}
